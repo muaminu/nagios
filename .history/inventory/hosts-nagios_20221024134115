@@ -1,0 +1,16 @@
+# enable_plugins = gcp_compute
+[all]
+
+
+  [target_workstation]
+  #test-target-node-1 ansible_user=root ansible_ssh_pass=abc123
+  ubhost-test-cluster ansible_user=root ansible_ssh_pass=abc123
+
+  #ubhost100 ansible_user=ami
+  #10.0.0.22
+
+  [dell]
+ # 192.168.20.13
+
+  #ubhost300
+  #10.0.0.29       
